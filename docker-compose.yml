@@ -1,0 +1,25 @@
+version: '3'
+services:
+  api-server:
+    image: api-server
+    build: ./server/
+    ports:
+      - "8080:8080"
+    networks:
+      - jensenfy
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:4.4-bionic
+    ports:
+      - "27017:27017"
+    networks:
+      - jensenfy
+    volumes:
+      - mongo-data:/data/db
+networks:
+  jensenfy:
+    driver: bridge
+volumes:
+  mongo-data:
+    driver: local
