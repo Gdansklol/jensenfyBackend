@@ -40,7 +40,7 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THIS PROJECT -->
 
 ## About This Project
 
