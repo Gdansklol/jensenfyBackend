@@ -42,7 +42,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About This Project
 
 <img src="https://iili.io/64LDl9.png" alt="Dashboard" >
 
